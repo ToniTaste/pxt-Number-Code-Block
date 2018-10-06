@@ -1,14 +1,16 @@
 /**
  * Benutzerdefinierte Blöcke
  */
-//% color=#aabbcc weight=100 icon="\uf02a" block="Zahlencodierung"
+//% color=#4040FF weight=100 icon="\uf02a" block="Zahlencodierung"
 namespace Zahlencodierung {
     /**
      * TODO: Zeigt n morsecodiert an
      * @param n Zahl, eg: 5
      */
-    //% block="zeige Nummer %n morsecodiert"
+    //% blockId=device_zeige_Nummer_Morsecodiert
+    //% block="zeige Zahl %n morsecodiert"
     //% n.min = -9999 n.max = 9999
+    //% n.defl = 42
     export function zeigeNMorsecodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
             basic.clearScreen()
