@@ -1,13 +1,13 @@
 /**
  * Benutzerdefinierte Blöcke
  */
-//% color=170 weight=100 icon="\uf02a" block="Number Coding"
-namespace NumberCoding {
+//% color=570 weight=100 icon="\uf02a" block="Zahlencodierung"
+namespace Zahlencodierung {
     /**
      * TODO: Zeigt n morsecodiert an
      * @param n Zahl, eg: 5
      */
-    //% block="show|number %n like Morse"
+    //% block="zeige Nummer %n morsecodiert"
     //% n.min = -9999 n.max = 9999
     export function zeigeNMorsecodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
