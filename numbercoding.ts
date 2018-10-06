@@ -7,10 +7,9 @@ namespace Zahlencodierung {
      * TODO: Zeigt n morsecodiert an
      * @param n Zahl, eg: 5
      */
-    //% blockId=device_zeige_Nummer_Morsecodiert
+    //% blockId=device_zeige_Zahl_morsecodiert
     //% block="zeige Zahl %n morsecodiert"
     //% n.min = -9999 n.max = 9999
-    //% n.defl = 42
     export function zeigeNMorsecodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
             basic.clearScreen()
@@ -33,7 +32,8 @@ namespace Zahlencodierung {
      * TODO: Zeigt n sorobancodiert an
      * @param n Zahl, eg: 5
      */
-    //% block
+    //% blockId=device_zeige_Zahl_sorobancodiert
+    //% block="zeige Zahl %n sorobancodiert"
     //% n.min = -9999 n.max = 9999
     export function zeigeNSorobancodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
@@ -61,7 +61,8 @@ namespace Zahlencodierung {
      * @param x Spalte auf der LED-Matrix, eg: 0
      * @param n Zahl, eg: 5
      */
-    //% block
+    //% blockId=device_zeige_Zahl_dualcodiert_in_Spalte_an
+    //% block="zeige in Spalte %x Zahl %n dualcodiert"
     //% n.min = 0 n.max = 31
     export function zeigeInSpalteXNDualcodiertAn(x: number, n: number): void {
         if (n > 0 && n < 32) {
@@ -82,8 +83,9 @@ namespace Zahlencodierung {
      * TODO: Zeigt die Zahl n zweiziffrig an
      * @param n Zahl, eg: 5
      */
-    //% block
-    //% n.min = 0 n.max = 99
+    //% blockId=device_zeige_zwei_Zahlen_an
+    //% block="zeige Zahl %n in zwei Spalten an"
+    //% n.min = 0 n.max = 31
     export function zeigeNZweiziffrigAn(n: number): void {
         if (n >= 0 && n < 100) {
             basic.clearScreen()
