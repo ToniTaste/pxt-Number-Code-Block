@@ -1,7 +1,7 @@
 /**
  * Benutzerdefinierte Blöcke
  */
-//% color=170 weight=100 icon="\uf02a" block="Basic Blocks"
+//% color=170 weight=100 icon="\uf02a" block="Number Coding"
 namespace NumberCoding {
     /**
      * TODO: Zeigt n morsecodiert an
