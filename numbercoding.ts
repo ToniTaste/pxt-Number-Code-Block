@@ -1,7 +1,7 @@
 /**
  * Benutzerdefinierte Blöcke
  */
-//% color=570 weight=100 icon="\uf02a" block="Zahlencodierung"
+//% color=#aabbcc weight=100 icon="\uf02a" block="Zahlencodierung"
 namespace Zahlencodierung {
     /**
      * TODO: Zeigt n morsecodiert an
