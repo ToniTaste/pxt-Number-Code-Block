@@ -1,14 +1,13 @@
 # pxt-number-code-block
-New Blocks to show numbers in different ways 
-- morse code
-- soroban code
-- binary code
-- two-digit in the small 5x5 display
+New Block called Zahlenausgabe to show numbers in different ways: 
+- as morse code
+- as soroban code
+- as binary code
+- as two-digit in the small 5x5 display
+- as two-digit in the small 5x5 display with comma
 
 # usage
-open your makecode project, Advanced - Add Package and paste
-https://github.com/ToniTaste/pxt-Number-Code-Block 
-to search box then search.
+Open your makecode project. Go to Advanced, Add Package and paste https://github.com/ToniTaste/pxt-Number-Code-Block in to the search box then search.
 
 # API
 
