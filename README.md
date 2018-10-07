@@ -20,7 +20,7 @@ Open your makecode project. Go to Advanced, Add Package and paste https://github
 ![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/p1.PNG)
 
 ## More information about pxt packages
-Read more at https://makecode.microbit.org/packages/build-your-own
+Read more at https://www.hackster.io/ToniTaste/custom-block-zur-zahlcodierung-fur-calliope-microbit-884e33
 
 ## License
 CC0
