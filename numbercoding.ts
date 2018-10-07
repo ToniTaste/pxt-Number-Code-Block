@@ -8,9 +8,9 @@ namespace Zahlencodierung {
      * @param n Zahl, eg: 5
      */
     //% blockId=device_zeige_Zahl_morsecodiert
-    //% block="zeige Zahl %n morsecodiert an"
+    //% block="zeige | Zahl %n | morsecodiert an"
     //% n.min = -9999 n.max = 9999
-    export function zeigeNMorsecodiertAn(n: number): void { 
+    export function zeigeNMorsecodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
             basic.clearScreen()
             if (n < 0) {
