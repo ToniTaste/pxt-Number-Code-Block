@@ -8,7 +8,7 @@ namespace Zahlencodierung {
      * @param n Zahl, eg: 5
      */
     //% blockId=device_zeige_Zahl_morsecodiert
-    //% block="zeige Zahl %n morsecodiert"
+    //% block="zeige Zahl %n morsecodiert an"
     //% n.min = -9999 n.max = 9999
     export function zeigeNMorsecodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
@@ -33,7 +33,7 @@ namespace Zahlencodierung {
      * @param n Zahl, eg: 5
      */
     //% blockId=device_zeige_Zahl_sorobancodiert
-    //% block="zeige Zahl %n sorobancodiert"
+    //% block="zeige Zahl %n sorobancodiert an"
     //% n.min = -9999 n.max = 9999
     export function zeigeNSorobancodiertAn(n: number): void {
         if (n > -10000 && n < 10000) {
@@ -62,9 +62,9 @@ namespace Zahlencodierung {
      * @param n Zahl, eg: 5
      */
     //% blockId=device_zeige_Zahl_dualcodiert_in_Spalte_an
-    //% block="zeige in Spalte %x Zahl %n dualcodiert"
+    //% block="zeige Zahl %n in Spalte %x dualcodiert an"
     //% n.min = 0 n.max = 31
-    export function zeigeInSpalteXNDualcodiertAn(x: number, n: number): void {
+    export function zeigeNInSpalteXDualcodiertAn(n: number, x: number): void {
         if (n > 0 && n < 32) {
             for (let i = 4; i >= 0; i--) {
                 let r = n % 2
@@ -82,7 +82,7 @@ namespace Zahlencodierung {
      * @param n Zahl, eg: 5
      */
     //% blockId=device_zeige_zwei_Zahlen_an
-    //% block="zeige Zahl %n in zwei Spalten an"
+    //% block="zeige Zahl %n zweiziffrig an"
     //% n.min = 0 n.max = 99
     export function zeigeNZweiziffrigAn(n: number): void {
         if (n >= 0 && n < 100) {
@@ -118,8 +118,8 @@ namespace Zahlencodierung {
     * TODO: Zeigt die Zahl n zweiziffrig mit Komma an
     * @param n Zahl, eg: 5
      */
-    //% blockId=device_interprtetiere_zwei_Zahlen_mit Komma
-    //% block="zeige Zahl %n in zwei Spalten mit Komma an"
+    //% blockId=device_interpretiere_zwei_Zahlen_mit Komma
+    //% block="zeige Zahl %n zweiziffrig mit Komma an"
     //% n.min = 0 n.max = 99
     export function interpretiereNZweiziffrigMitKomma(n: number): void {
         if (n >= 0 && n < 100) {
