@@ -16,7 +16,8 @@ Open your makecode project. Go to Advanced, Add Package and paste https://github
 ![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/morse.PNG)
 ![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/soro.PNG)
 ![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/bin.PNG)
-![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/program.PNG)
+![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/p0.PNG)
+![](https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/p1.PNG)
 
 ## More information about pxt packages
 Read more at https://makecode.microbit.org/packages/build-your-own
