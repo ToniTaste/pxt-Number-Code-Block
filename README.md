@@ -12,7 +12,7 @@ Open your makecode project. Go to Advanced, Add Package and paste https://github
 # API
 
 # Demo
-https://github.com/ToniTaste/pxt-Number-Code-Block/pictures/p0.PNG
+https://github.com/ToniTaste/pxt-Number-Code-Block/blob/master/pictures/p0.PNG
 
 ## More information about pxt packages
 Read more at https://makecode.microbit.org/packages/build-your-own
