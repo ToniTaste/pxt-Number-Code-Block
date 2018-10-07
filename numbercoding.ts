@@ -75,8 +75,6 @@ namespace Zahlencodierung {
                     led.unplot(x, i)
                 }
             }
-        } else {
-
         }
     }
     /**
@@ -85,7 +83,7 @@ namespace Zahlencodierung {
      */
     //% blockId=device_zeige_zwei_Zahlen_an
     //% block="zeige Zahl %n in zwei Spalten an"
-    //% n.min = 0 n.max = 31
+    //% n.min = 0 n.max = 99
     export function zeigeNZweiziffrigAn(n: number): void {
         if (n >= 0 && n < 100) {
             basic.clearScreen()
@@ -117,11 +115,11 @@ namespace Zahlencodierung {
     }
 
     /**
- * TODO: Zeigt die Zahl n zweiziffrig an
- * @param n Zahl, eg: 5
- * @param k Wahrheitswert, wenn false, dann Komma
- */
-    //% block
+    * TODO: Zeigt die Zahl n zweiziffrig mit Komma an
+    * @param n Zahl, eg: 5
+     */
+    //% blockId=device_interprtetiere_zwei_Zahlen_mit Komma
+    //% block="zeige Zahl %n in zwei Spalten mit Komma an"
     //% n.min = 0 n.max = 99
     export function interpretiereNZweiziffrigMitKomma(n: number): void {
         if (n >= 0 && n < 100) {
