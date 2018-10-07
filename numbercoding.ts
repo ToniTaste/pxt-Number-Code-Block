@@ -15,7 +15,7 @@ namespace Zahlencodierung {
         if (n > -10000 && n < 10000) {
             basic.clearScreen()
             if (n < 0) {
-                led.plot(0, 2)
+                led.plot(0, 2) 
                 n = n * -1
             }
             for (let i = 0; i <= 4; i++) {
