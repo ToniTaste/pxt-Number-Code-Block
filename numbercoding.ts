@@ -91,7 +91,6 @@ namespace Zahlencodierung {
             let wert = n
             let l1: number[] = [99999, 11111, 91999, 91919, 99911, 99919, 99999, 91111, 99599, 99911]
             let l2: number[] = [99999, 99999, 99919, 99999, 11999, 91999, 11999, 99999, 99599, 99999]
-
             let einer = wert % 10
             let zehner = (wert - einer) / 10
             anzeige[0] = l1[zehner]
