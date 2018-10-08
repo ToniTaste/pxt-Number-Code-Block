@@ -3,8 +3,8 @@ New Block called Zahlenausgabe to show numbers in different ways:
 - as morse code
 - as soroban code
 - as binary code
-- as two-digit in the small 5x5 display
-- as two-digit in the small 5x5 display with comma
+- as two-digit number in the small 5x5 display
+- as two-digit number in the small 5x5 display with comma
 
 Read more at https://www.hackster.io/ToniTaste/custom-block-zur-zahlcodierung-fur-calliope-microbit-884e33
 
