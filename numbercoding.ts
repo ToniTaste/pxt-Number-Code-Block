@@ -53,7 +53,7 @@ namespace Zahlencodierung {
                     r = r - 5;
                 }
                 for (let j = 0; j < r; j++) {
-                    led.plot(x, j + 1)
+                    led.plot(x, j + 1) 
                 }
             }
         }
